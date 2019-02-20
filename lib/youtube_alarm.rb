@@ -1,4 +1,4 @@
-require "youtube_alarm/version"
+require 'youtube_alarm/version'
 
 module YoutubeAlarm
   class Error < StandardError; end
