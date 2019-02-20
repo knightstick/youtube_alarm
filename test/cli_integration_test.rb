@@ -1,7 +1,8 @@
 require 'minitest/autorun'
+require 'youtube_alarm/cli'
 
 class TestCLIIntegration < Minitest::Test
   def test_it_runs
-    assert true
+    YoutubeAlarm::CLI.run
   end
 end
