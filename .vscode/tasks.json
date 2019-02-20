@@ -13,9 +13,9 @@
       }
     },
     {
-      "label": "test",
+      "label": "test && commit || revert",
       "type": "shell",
-      "command": "rake test",
+      "command": "rake test && git commit -am working || git reset --hard",
       "group": {
         "kind": "test",
         "isDefault": true
